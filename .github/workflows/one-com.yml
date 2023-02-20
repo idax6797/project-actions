@@ -39,3 +39,4 @@ jobs:
           username: webhay.dk
           password: ${{ secrets.ftp_password }}
           port: 21
+          timeout: 60000
