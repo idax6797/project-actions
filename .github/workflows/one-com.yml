@@ -41,8 +41,8 @@ jobs:
           port: 21
           timeout: 60000
           exclude: |
-            .vscode
-            src
+            **.vscode**
+            **src**
             .eslintrc.yml
             ftp-deploy-sync-state.json
             index.html
@@ -50,3 +50,6 @@ jobs:
             package-lock.json
             README.md
             vite.config.js
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
